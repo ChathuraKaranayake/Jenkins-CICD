@@ -9,5 +9,12 @@ pipeline {
                 }
             }
         }
+        stage('welcome to devops') {
+            steps {
+                script {
+                    echo 'Hello, World!'
+                }
+            }
+        }
     }
 }
